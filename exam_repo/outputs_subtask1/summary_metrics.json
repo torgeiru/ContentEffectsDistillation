@@ -1,0 +1,7 @@
+{
+  "peft_lora": {
+    "accuracy": 97.3822,
+    "content_effect": 3.1915,
+    "combined_score": 40.0246
+  }
+}
