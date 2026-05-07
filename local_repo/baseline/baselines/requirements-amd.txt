@@ -1,0 +1,30 @@
+# AMD ROCm PyTorch.
+#
+# First try the stable ROCm 7.2 index:
+--index-url https://download.pytorch.org/whl/rocm7.2
+--extra-index-url https://pypi.org/simple
+
+# If the stable ROCm 7.2 index fails with "No matching distribution found",
+# comment the two lines above and use the two lines below instead:
+# --pre
+# --index-url https://download.pytorch.org/whl/nightly/rocm7.2
+# --extra-index-url https://pypi.org/simple
+
+torch
+
+# Hugging Face / training stack.
+# Qwen3 needs recent Transformers; Qwen docs recommend transformers>=4.51.0.
+transformers>=4.51.0
+accelerate
+peft
+
+# Task utilities.
+scikit-learn
+tqdm
+numpy
+
+# Common HF model/tokenizer helpers.
+safetensors
+sentencepiece
+protobuf
+huggingface_hub
