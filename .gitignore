@@ -1,0 +1,5 @@
+**/outputs_subtask1
+**/.venv
+**/cache
+**/hf_models
+**/logs
