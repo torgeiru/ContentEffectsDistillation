@@ -1,0 +1,3 @@
+[submodule "local_repo/baseline/semeval_2026_task_11"]
+	path = local_repo/baseline/semeval_2026_task_11
+	url = https://github.com/neuro-symbolic-ai/semeval_2026_task_11.git
